@@ -29,7 +29,7 @@ Warm up! Take a look at an overview of the data with the `skim()` function.
 **Note:** I already gave you the answer to this exercise. You just need to 
 knit the document and view the output. A definition of all variables is given 
 in the [Data dictionary] section at the end, though you don't need to familiarize 
-yourself with all variables in order to work through these exercises.
+yourself with all variables in order to work through these exercises. (It's still good practice to do so)
 
 ```{r hotels-skim}
 skim(hotels)
