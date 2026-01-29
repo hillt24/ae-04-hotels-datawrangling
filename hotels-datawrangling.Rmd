@@ -102,7 +102,7 @@ hotels %>%
 Suprisingly, the most amount of adults in a single booking is 55.
 ```{r adult-bookings}
 hotels %>% 
-  select(hotel, adults) %>%
+ count(hotel, adults) %>%
   arrange(desc(adults))
 
 ```
